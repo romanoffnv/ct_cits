@@ -76,8 +76,9 @@ def main():
     L_vehicles = [x for x in L_vehicles if len(x) >= 3 or len(x) == 0]
     
     pprint(L_vehicles)
-    
+
     # Collecting multiplitaction indeces to match up with crews
+    
 
     # L_vehicles = [str(x).replace(';', ',').split(',') for x in L_vehicles if x != None]
 
